@@ -1133,9 +1133,10 @@ packages:
       debug: 4.3.2
       fs-extra: 7.0.1
       hardhat: 2.6.5
-      node-fetch: 2.6.5
+      node-fetch: 2.6.12
       semver: 6.3.0
     transitivePeerDependencies:
+      - encoding
       - supports-color
     dev: true
 
@@ -3222,7 +3223,7 @@ packages:
       merkle-patricia-tree: 4.2.2
       mnemonist: 0.38.4
       mocha: 7.2.0
-      node-fetch: 2.6.5
+      node-fetch: 2.6.12
       qs: 6.10.1
       raw-body: 2.4.1
       resolve: 1.17.0
@@ -3237,6 +3238,7 @@ packages:
       ws: 7.5.5
     transitivePeerDependencies:
       - bufferutil
+      - encoding
       - supports-color
       - utf-8-validate
     dev: true
@@ -4170,13 +4172,6 @@ packages:
     peerDependenciesMeta:
       encoding:
         optional: true
-    dependencies:
-      whatwg-url: 5.0.0
-    dev: true
-
-  /node-fetch@2.6.5:
-    resolution: {integrity: sha512-mmlIVHJEu5rnIxgEgez6b9GgWXbkZj5YZ7fx+2r94a2E+Uirsp6HsPTPlomfdHtpt/B0cdKviwkoaM6pyvUOpQ==}
-    engines: {node: 4.x || >=6.0.0}
     dependencies:
       whatwg-url: 5.0.0
     dev: true
